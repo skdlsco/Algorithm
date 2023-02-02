@@ -1,3 +1,5 @@
+package `1992`
+
 import java.util.*
 
 

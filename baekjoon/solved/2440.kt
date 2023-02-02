@@ -1,4 +1,4 @@
-package clear
+package `2440`
 
 import java.util.Scanner
 

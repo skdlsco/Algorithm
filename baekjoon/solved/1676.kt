@@ -1,3 +1,5 @@
+package `1676`
+
 import java.util.*
 
 fun main() {

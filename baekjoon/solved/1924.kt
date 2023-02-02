@@ -1,4 +1,4 @@
-package clear
+package `1924`
 
 import java.util.Scanner
 

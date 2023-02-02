@@ -1,4 +1,4 @@
-package clear
+package `1260`
 
 import java.util.*
 

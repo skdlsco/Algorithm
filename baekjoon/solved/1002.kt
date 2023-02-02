@@ -1,4 +1,4 @@
-package baekjoon.solved
+package `1002`
 
 import java.util.*
 import kotlin.math.*

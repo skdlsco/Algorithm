@@ -1,4 +1,4 @@
-package clear
+package `2003`
 
 fun main() {
     val scanner = java.util.Scanner(System.`in`)

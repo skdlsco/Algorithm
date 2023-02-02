@@ -1,4 +1,4 @@
-package baekjoon.solved
+package `2503`
 
 import java.util.*
 

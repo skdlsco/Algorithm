@@ -1,3 +1,5 @@
+package `1012`
+
 import java.util.*
 
 fun clearLand(arr: Array<Array<Boolean>>, x: Int, y: Int) {
