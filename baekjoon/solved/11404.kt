@@ -1,3 +1,4 @@
+package `11404`
 import kotlin.math.min
 
 fun main() {

@@ -1,3 +1,4 @@
+package `7662`
 import java.io.BufferedReader
 import java.io.BufferedWriter
 import java.io.InputStreamReader

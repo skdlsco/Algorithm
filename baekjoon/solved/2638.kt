@@ -1,4 +1,4 @@
-package baekjoon.solved
+package `2638`
 
 import java.io.BufferedReader
 import java.io.BufferedWriter

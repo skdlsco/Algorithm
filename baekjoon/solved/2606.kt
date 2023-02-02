@@ -1,4 +1,4 @@
-package c2606
+package `2606`
 
 import java.util.*
 import kotlin.collections.ArrayList

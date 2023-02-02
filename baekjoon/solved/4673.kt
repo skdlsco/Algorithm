@@ -1,4 +1,4 @@
-package clear
+package `4673`
 
 fun getSumDigit(num: Int): Int {
     var temp = num

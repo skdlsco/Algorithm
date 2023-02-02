@@ -1,4 +1,4 @@
-package baekjoon.solved
+package `5639`
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
