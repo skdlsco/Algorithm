@@ -24,7 +24,8 @@ fun main() {
 
     repeat(N.toInt()) {
         val (A, B, C) = reader.readLine().split(" ").map { it.toLong() }
-        val isMinus = (A < 0) xor (B < 0)
+        val isMinus = if (A == 0L || B == 0L) false
+        else (A < 0) xor (B < 0)
         val gcd = gcd(A, B)
         val data = Data((A / gcd).absoluteValue, (B / gcd).absoluteValue, isMinus)
         if (!map.containsKey(data))
