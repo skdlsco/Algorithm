@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class Main {
+
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        Scanner scanner = new Scanner(reader);
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(System.out));
+        int N = scanner.nextInt();
+        int goal[] = new int[5];
+        for (int i = 0; i < 5; i++) {
+            goal[i] = scanner.nextInt();
+        }
+        ArrayList<Integer> problem[] = new ArrayList[5];
+        for (int i = 0; i < 5; i++) {
+            problem[i] = new ArrayList<>();
+        }
+        for (int i = 0; i < N; i++) {
+            int k = scanner.nextInt();
+            int t = scanner.nextInt();
+            problem[k - 1].add(t);
+        }
+        for (ArrayList<Integer> arr : problem) {
+            arr.sort(Integer::compareTo);
+        }
+        Integer sum = 240;
+        for (int i = 0; i < 5; i++) {
+            var prev = -1;
+            for (int p : problem[i]) {
+                if (prev != -1)
+                    sum += p - prev;
+                sum += p;
+                goal[i]--;
+                if (goal[i] == 0)
+                    break;
+                prev = p;
+            }
+        }
+        writer.write(sum.toString());
+        writer.flush();
+    }
+}
